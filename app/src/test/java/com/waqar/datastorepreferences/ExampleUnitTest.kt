@@ -1,4 +1,4 @@
-package com.miczon.datastorepreferences
+package com.waqar.datastorepreferences
 
 import org.junit.Test
 

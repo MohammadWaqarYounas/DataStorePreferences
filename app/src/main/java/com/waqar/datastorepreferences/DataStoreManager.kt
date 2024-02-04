@@ -1,15 +1,12 @@
-package com.miczon.datastorepreferences
+package com.waqar.datastorepreferences
 
 import android.content.Context
 import android.util.Log
 import androidx.datastore.preferences.core.*
 import androidx.datastore.preferences.preferencesDataStore
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.singleOrNull
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.withContext
 
 
 class DataStoreManager(context: Context) {
