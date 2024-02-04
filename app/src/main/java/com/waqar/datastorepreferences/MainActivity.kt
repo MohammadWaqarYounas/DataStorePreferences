@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.lifecycleScope
+import com.miczon.datastorepreferences.databinding.ActivityMainBinding
 import com.waqar.datastorepreferences.MyApplication.Companion.clearDataStore
 import com.waqar.datastorepreferences.MyApplication.Companion.retrieveData
 import com.waqar.datastorepreferences.MyApplication.Companion.saveData
-import com.waqar.datastorepreferences.databinding.ActivityMainBinding
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
